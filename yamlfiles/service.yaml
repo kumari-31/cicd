@@ -4,6 +4,7 @@ metadata:
   name: todo-service
   labels:
     app: to-do-app
+    app.kubernetes.io/instance: pipeline 
 spec:
   type: NodePort
   selector:
